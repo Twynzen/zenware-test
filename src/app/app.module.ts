@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarModule } from './modules/shared/navbar/navbar.module';
 import { CommonModule } from '@angular/common';
 import { EmployeesComponent } from './modules/pages/employees/employees.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   schemas: [
@@ -13,13 +14,14 @@ import { EmployeesComponent } from './modules/pages/employees/employees.componen
   ],
   declarations: [
     AppComponent,
-    EmployeesComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
+    HttpClientModule,
+
   ],
   providers: [CommonModule],
   bootstrap: [AppComponent]
