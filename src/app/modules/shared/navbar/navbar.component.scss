@@ -5,13 +5,17 @@
   left: 0;
   right: 0;
   z-index: 999;
+  background: #fff;
+  color: #999;
+  border-top: 1px solid rgba(193, 193, 193, 0.398);
 }
 
 .navbar .container {
   display: flex;
   align-items: center;
 }
-.navbar-nav{
+
+.navbar-nav {
   display: contents;
 }
 
@@ -25,16 +29,21 @@
   display: block;
   text-align: center;
   padding: 10px 0;
+  background: #fff;
+  color: #999;
 }
+
 
 @media (min-width: 992px) {
   .navbar .container {
     /* Estilos para pantallas grandes */
   }
+
   .navbar .nav-item {
     /* Estilos para los elementos del navbar en pantallas grandes */
     flex: 0 0 auto;
   }
+
   .navbar .nav-link {
     /* Estilos para los enlaces del navbar en pantallas grandes */
   }

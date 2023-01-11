@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { EmployeeInfoComponent } from './employee-info.component';
 import { EmployeeInfoRoutingModule } from './employee-info.routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   schemas:[
@@ -17,6 +18,9 @@ import { EmployeeInfoRoutingModule } from './employee-info.routing.module';
     CommonModule,
     RouterModule,
     EmployeeInfoRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+
   ],
   exports:[
     EmployeeInfoComponent

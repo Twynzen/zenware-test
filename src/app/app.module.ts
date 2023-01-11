@@ -7,6 +7,7 @@ import { NavbarModule } from './modules/shared/navbar/navbar.module';
 import { CommonModule } from '@angular/common';
 import { EmployeesComponent } from './modules/pages/employees/employees.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   schemas: [
@@ -20,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
+    ReactiveFormsModule,
+    FormsModule,
     HttpClientModule,
 
   ],
